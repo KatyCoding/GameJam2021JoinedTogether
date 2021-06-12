@@ -18,7 +18,6 @@ public class Piggy : MonoBehaviour, IGrabbable
 
     public void OnDragStart()
     {
-        Debug.Log("Started drag on pig");
     }
 
     public void OnGrabbed(Transform grabbingObject)
@@ -34,7 +33,6 @@ public class Piggy : MonoBehaviour, IGrabbable
 
     public void WhileDragging()
     {
-        Debug.Log("dragging this piggy");
     }
 
     
