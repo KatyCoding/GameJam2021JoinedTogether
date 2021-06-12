@@ -62,7 +62,10 @@
     <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\Scripts\Harpoon\HarpoonShoot.cs" />
-    <Compile Include="Assets\Scripts\CollisionEvents.cs" />
+    <Compile Include="Assets\Scripts\Utility\CollisionEvents.cs" />
+    <Compile Include="Assets\Scripts\Harpoon\IGrabbable.cs" />
+    <Compile Include="Assets\Scripts\AI\Piggy.cs" />
+    <Compile Include="Assets\Scripts\Utility\ICollisionEventListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Audio\Readme.txt" />
